@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(gh repo *)",
+      "Bash(git symbolic-ref *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Initial commit: NOC+TUNE band website *)"
+    ]
+  }
+}
