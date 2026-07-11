@@ -442,13 +442,25 @@ a {
   align-items: center;
 }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
 .mail-link {
   display: inline-flex;
-  margin-top: 1.2rem;
   padding: 0.9rem 1.3rem;
   border: 1px solid var(--line);
   color: var(--gold-light);
   background: rgba(255, 255, 255, 0.03);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.mail-link:hover {
+  border-color: var(--gold);
+  color: var(--cream);
 }
 
 .sns-box {
